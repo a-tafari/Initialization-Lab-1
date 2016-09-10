@@ -13,18 +13,22 @@ public class InitializationLab1 {
         BoringThing boringThing4 = new BoringThing();
 
 
-        ColorfulThing color1 = new ColorfulThing("red");
+        ColorfulThing color1 = new ColorfulThing(ColorfulThing.Color.BLUE);
 
-        ColorfulThing color2 = new ColorfulThing("blue");
-        ColorfulThing color3 = new ColorfulThing("yellow");
-        ColorfulThing color4 = new ColorfulThing("green");
-        ColorfulThing color5 = new ColorfulThing("orange");
+        ColorfulThing color2 = new ColorfulThing(ColorfulThing.Color.RED);
+        ColorfulThing color3 = new ColorfulThing(ColorfulThing.Color.GREEN);
+        ColorfulThing color4 = new ColorfulThing(ColorfulThing.Color.YELLOW);
+
 
         System.out.println(color1.getColor());
         System.out.println(color2.getColor());
         System.out.println(color3.getColor());
         System.out.println(color4.getColor());
-        System.out.println(color5.getColor());
 
+
+
+
+
+      
     }
 }

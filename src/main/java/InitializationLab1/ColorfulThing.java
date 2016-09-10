@@ -5,18 +5,21 @@ package InitializationLab1;
  */
 public class ColorfulThing {
 
-    private String color;
+    private Color color;
 
-    public ColorfulThing(String color){
+    public ColorfulThing(Color color){
         this.color = color;
     }
 
-    public String getColor(){
+    public Color getColor(){
 
         return color;
 
     }
 
+    public enum Color {
 
+        BLUE, GREEN, YELLOW , RED
+    }
 
 }
