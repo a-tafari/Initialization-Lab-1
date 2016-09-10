@@ -21,6 +21,10 @@ public class InitializationLab1 {
         ColorfulThing color5 = new ColorfulThing("orange");
 
         System.out.println(color1.getColor());
+        System.out.println(color2.getColor());
+        System.out.println(color3.getColor());
+        System.out.println(color4.getColor());
+        System.out.println(color5.getColor());
 
     }
 }
